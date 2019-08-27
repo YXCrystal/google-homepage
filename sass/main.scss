@@ -104,8 +104,10 @@
 }
 
 .footer {
-    margin-top: 420px;
+    position: absolute;
     background-color: #F3F3F3;
+    bottom: 0;
+    width: 100%;
 
     &__location {
         display: block;
@@ -116,9 +118,6 @@
         
         
     }
-
-    &__information {
-        padding-bottom: 6px;
-    }
+    
 
 }

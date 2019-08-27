@@ -61,13 +61,13 @@
       border: 1px solid lightgray; }
 
 .footer {
-  margin-top: 420px;
-  background-color: #F3F3F3; }
+  position: absolute;
+  background-color: #F3F3F3;
+  bottom: 0;
+  width: 100%; }
   .footer__location {
     display: block;
     color: dimgrey;
     padding: 10px 20px;
     border-top: 1px solid lightgray;
     border-bottom: 1px solid lightgray; }
-  .footer__information {
-    padding-bottom: 6px; }
