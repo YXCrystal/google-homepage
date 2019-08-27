@@ -46,3 +46,59 @@
         margin-top: -20px;
     }
 }
+
+.search {
+    text-align: center;
+    margin-top: 10vh;
+
+    &__logo {
+        width: 300px;;
+    }
+
+    &__bar {
+        margin-top: -45px;
+    }
+
+    &__input {
+        width: 550px;
+        height: 43px;
+        padding: 10px 10px;
+        border-radius: 50px;
+        border: 1px solid lightgrey;
+        transition: all .1s;
+        
+        &:focus {
+            outline: none;
+        }
+        &:hover {
+            box-shadow: 1px 1px 8px rgba(black, 0.3);
+        }
+    }
+
+}
+
+
+.btn {
+    margin-top: 30px;
+
+    &--grey {
+        &:link,
+        &:visited {
+        text-decoration: none;
+        color: dimgrey; 
+        }
+
+        background-color: #F3F3F3;
+        padding: 10px 15px;
+        border-radius: 3px;
+        border: 1px solid transparent;
+
+        &:not(:last-child) {
+            margin-right: 15px;
+        }
+
+        &:hover {
+            border: 1px solid lightgray;
+        }
+    }
+}
