@@ -31,9 +31,8 @@
   text-align: center;
   margin-top: 10vh; }
   .search__logo {
-    width: 300px; }
-  .search__bar {
-    margin-top: -45px; }
+    display: inline-block;
+    width: 250px; }
   .search__input {
     width: 550px;
     height: 43px;
