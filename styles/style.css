@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.navigation {
+  position: relative; }
+  .navigation__list {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px; }
+    .navigation__list--left {
+      float: left; }
+    .navigation__list--right {
+      position: absolute;
+      margin-right: 20px;
+      right: 0; }
+  .navigation__item {
+    padding-right: 10px;
+    display: inline-block; }
+  .navigation__link:link, .navigation__link:visited {
+    text-decoration: none;
+    color: dimgray; }
+  .navigation__profile {
+    transform: translateY(10px);
+    width: 40px;
+    border-radius: 50%;
+    margin-top: -20px; }
