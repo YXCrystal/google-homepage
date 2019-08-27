@@ -4,13 +4,15 @@
     box-sizing: border-box;
 }
 
+
 .navigation {
     position: relative;
 
     &__list {
         display: inline-block;
-        margin-top: 20px;
+        margin-top: 15px;
         margin-left: 20px;
+        
 
         &--left {
             float: left;
@@ -101,4 +103,24 @@
             border: 1px solid lightgray;
         }
     }
+}
+
+.footer {
+    margin-top: 420px;
+    background-color: #F3F3F3;
+
+    &__location {
+        display: block;
+        color: dimgrey;
+        padding: 10px 20px;
+        border-top: 1px solid lightgray;
+        border-bottom: 1px solid lightgray;
+        
+        
+    }
+
+    &__information {
+        padding-bottom: 6px;
+    }
+
 }
